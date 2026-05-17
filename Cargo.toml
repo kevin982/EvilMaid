@@ -1,0 +1,7 @@
+# ./Cargo.toml
+[workspace]
+members = [
+    "em_injector",
+    "em_shell",
+]
+resolver = "2"
