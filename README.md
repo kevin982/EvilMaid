@@ -11,7 +11,7 @@ El sistema está desarrollado íntegramente en **Rust** y consta de dos componen
 1. **Vector de Ataque al Arranque (Evil Maid):** Simulación del compromiso de un sistema operativo durante su fase de booteo.
 2. **EM Shell:** Un binario persistente que se carga en memoria tras el inicio del sistema operativo e interactúa de manera nativa con la red para establecer un *reverse shell* (socket TCP saliente) hacia una dirección IP predefinida.
 
-## 🛠️ Requisitos e Instalación
+## Requisitos e Instalación
 
 ### Target de Compilación
 Dado que se requiere compatibilidad con arquitectura x86, asegúrate de tener instalado el *target* correspondiente a través de `rustup`:
